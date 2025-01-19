@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+}
+
+:root {
+  --font1: "Plus Jakarta Sans", serif;
+}
+
+.container {
+  color: white;
+}
+
+.container .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .menu li {
+ font: var(--font1);
+ display: flex;
+ align-items: center;
+ padding: 2rem;
+ list-style-type: none;
+}
+
+.container .menu a {
+  font-family: var(--font1);
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.1rem;
+  align-items: center;
+  padding: 0.2rem 5%;
+}
+
+.container .menu li a:hover {
+  color: orange;
+}
+
+a {
+  font-family: var(--font1);
+  color: #040404;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+a:hover {
+  color: #dc7d00;
+}
+.tambah_data {
+  background-color: #040404;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 1rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+table, th, td {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td a {
+  color: #040404;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+td a:hover {
+  color: #dc7d00;
+}
