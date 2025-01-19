@@ -20,7 +20,7 @@ $result = mysqli_query($conn, $dosen);
     <div class="menu">
       <h1>SSH</h1>
       <li>
-        <a href="perkuliahan.php">dashboard</a>
+        <a href="perkuliahan.php">Perkuliahan</a>
         <a href="mahasiswa.php">Mahasiswa</a>
         <a href="dosen.php">Dosen</a>
         <a href="matakuliah.php">Matakuliah</a>
